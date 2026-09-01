@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus Flight</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+<h1 id="title">Focus Flight</h1>
+<div class="container">
+    <div id="scene">
+        <img id="location" src="" alt="" style="display:none;">
+        <div id="dragon" class="sprite"></div>
+    </div>
+
+    <p class="Timer" id="timer">25:00</p>
+    <p id="subtitle">Start a timer and send your dragon on an adventure</p>
+    <p id="message" style="display:none;">Your dragon has finished their adventure</p>
+
+    <div class="control-buttons">
+        <button class="button" id="start">Start</button>
+        <button class="button" id="stop">Stop</button>
+        <button class="button" id="reset">Reset</button>
+    </div>
+    <label for="minutes">Minutes:</label>
+    <input type="number" id="minutes" value="25" min="1" max="120">
+</div>
+
+</body>
+</html>
