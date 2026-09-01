@@ -1,0 +1,142 @@
+body {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-attachment: fixed;
+    background-image: url("images/walk.png");
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges; 
+}
+.page,body {
+    height: 100vh;
+}
+.page {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%
+}
+.title {
+    color: #95a791;
+    font-family: Pixelify Sans,sans-serif;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0
+}
+.sprite {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: none;
+}
+.flight-1 {
+    background-image: url("images/flight.png");
+}
+.flight-2 {
+    background-image: url("images/flight 2.png");
+}
+.flight-3 {
+    background-image: url("images/flight 3.png");
+}
+.flight-4 {
+    background-image: url("images/flight 4.png");
+}
+.flight-5 {
+    background-image: url("images/flight 5.png");
+}
+.flight-6 {
+    background-image: url("images/flight 6.png");
+}
+.flight-7 {
+    background-image: url("images/flight 7.png");
+}
+.flight-8 {
+    background-image: url("images/flight 8.png");
+}
+.flight-9 {
+    background-image: url("images/flight 9.png");
+}
+.flight-10 {
+    background-image: url("images/flight 10.png");
+}
+.flight-11 {
+    background-image: url("images/flight 11.png");
+}
+.Rest-1 {
+    background-image: url("images/Rest 1.png");
+}
+.Rest-2 {
+    background-image: url("images/Rest 2.png");
+}
+.Rest-3 {
+    background-image: url("images/Rest 3.png");
+}
+.Rest-4 {
+    background-image: url("images/Rest 4.png");
+}
+.Rest-5 {
+    background-image: url("images/Rest 5.png");
+}
+.Rest-6 {
+    background-image: url("images/Rest 6.png");
+}
+.Rest-7 {
+    background-image: url("images/Rest 7.png");
+}
+.castle {
+    background-image: url("images/castle.png");
+}
+.mountain-back {
+    background-image: url("images/mountainback.png")
+}
+#scene {
+    position: relative;
+    width: 100%;
+    height: 400px; /* however tall you want the "stage" area to be */
+}
+
+#location {
+    position: absolute;
+    top: 65%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: auto;
+    scale: 1.4;
+    image-rendering: pixelated;
+    z-index: 1;
+}
+#dragon {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    scale: 0.9;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+#dragon.flying {
+    top: 40%;
+}
+#title {
+    font-size: 50px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+#timer {
+    scale: 1.0;
+}
+button {
+    background-color: #2596be;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
